@@ -3,6 +3,8 @@ You Only Learn One Representation
 
 ## Check this video to understand the functionality: https://www.youtube.com/watch?v=h_Ookqy0K2Y
 
+1st step:  Clone this github repo: https://github.com/WongKinYiu/yolor
+
 ### Command to train your algorithm: 
 python train.py --batch-size 8 --img 1280 1280 --data custom.yaml --cfg cfg/yolor_p6_custom.cfg --weights '' --device 0 --name yolor_p6 --hyp hyp.scratch.1280.yaml --epochs 300 
 
